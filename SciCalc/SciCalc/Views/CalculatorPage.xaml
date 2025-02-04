@@ -73,7 +73,10 @@
             ZIndex="1"
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
-            Text="MEAN"/>
+            Text="MEAN"
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="MEAN"/>
+
 
         <Button 
             Grid.Row="2"
@@ -81,7 +84,10 @@
             ZIndex="1"
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
-            Text="MOD"/>
+            Text="MOD"
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="MOD"/>
+
 
         <Button 
             Grid.Row="2"
@@ -89,21 +95,27 @@
             ZIndex="1"
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
-            Text="STD"/>
+            Text="STD"
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="STD"/>
         <Button 
             Grid.Row="2"
             Grid.Column="3"
             ZIndex="1"
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
-            Text="VAR"/>
+            Text="VAR"
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="VAR"/>
         <Button 
             Grid.Row="2"
             Grid.Column="4"
             ZIndex="1"
             Margin="6,10,6,4"
             Style="{StaticResource ScientificOperatorButtonStyle}"
-            Text="FACT"/>
+            Text="FACT"
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="FACT"/>
 
         <!--Row 2-->
         <Button 
@@ -202,6 +214,190 @@
             Command="{Binding ScientificOperatorCommand}"
             CommandParameter="POW"/>
         <!--Row 4-->
+        <Button 
+            Grid.Row="5"
+            Grid.Column="0"
+            ZIndex="1"
+            Margin="6,10,6,4"
+            Style="{StaticResource ScientificOperatorButtonStyle}"
+            Text="SQART"
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="SQART"/>
+        <Button 
+            Grid.Row="5"
+            Grid.Column="1"
+            ZIndex="1"
+            Margin="6,10,6,4"
+            Style="{StaticResource ScientificOperatorButtonStyle}"
+            Text="ABS"
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="ABS"/>
+        <Button 
+            Grid.Row="5"
+            Grid.Column="2"
+            ZIndex="1"
+            Margin="6,10,6,4"
+            Style="{StaticResource ScientificOperatorButtonStyle}"
+            Text=","
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter=","/>
+        <Button 
+            Grid.Row="5"
+            Grid.Column="3"
+            ZIndex="1"
+            Margin="6,10,6,4"
+            Style="{StaticResource ScientificOperatorButtonStyle}"
+            Text="("
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="("/>
+        <Button 
+            Grid.Row="5"
+            Grid.Column="4"
+            ZIndex="1"
+            Margin="6,10,6,4"
+            Style="{StaticResource ScientificOperatorButtonStyle}"
+            Text=")"
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter=")"/>
+        <!--Row 5-->
+        <Button 
+            Grid.Row="5"
+            Grid.Column="0"
+            ZIndex="1"
+            Margin="6,10,6,4"
+            Style="{StaticResource ScientificOperatorButtonStyle}"
+            Text="SQART"
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="SQART"/>
+        <Button 
+            Grid.Row="5"
+            Grid.Column="1"
+            ZIndex="1"
+            Margin="6,10,6,4"
+            Style="{StaticResource ScientificOperatorButtonStyle}"
+            Text="ABS"
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="ABS"/>
+        <Button 
+            Grid.Row="5"
+            Grid.Column="2"
+            ZIndex="1"
+            Margin="6,10,6,4"
+            Style="{StaticResource ScientificOperatorButtonStyle}"
+            Text=","
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter=","/>
+        <Button 
+            Grid.Row="5"
+            Grid.Column="3"
+            ZIndex="1"
+            Margin="6,10,6,4"
+            Style="{StaticResource ScientificOperatorButtonStyle}"
+            Text="("
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="("/>
+        <Button 
+            Grid.Row="5"
+            Grid.Column="4"
+            ZIndex="1"
+            Margin="6,10,6,4"
+            Style="{StaticResource ScientificOperatorButtonStyle}"
+            Text=")"
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter=")"/>
+        <!--Row 6-->
+        <Button 
+            Grid.Row="5"
+            Grid.Column="0"
+            ZIndex="1"
+            Margin="6,10,6,4"
+            Style="{StaticResource ScientificOperatorButtonStyle}"
+            Text="SQART"
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="SQART"/>
+        <Button 
+            Grid.Row="5"
+            Grid.Column="1"
+            ZIndex="1"
+            Margin="6,10,6,4"
+            Style="{StaticResource ScientificOperatorButtonStyle}"
+            Text="ABS"
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="ABS"/>
+        <Button 
+            Grid.Row="5"
+            Grid.Column="2"
+            ZIndex="1"
+            Margin="6,10,6,4"
+            Style="{StaticResource ScientificOperatorButtonStyle}"
+            Text=","
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter=","/>
+        <Button 
+            Grid.Row="5"
+            Grid.Column="3"
+            ZIndex="1"
+            Margin="6,10,6,4"
+            Style="{StaticResource ScientificOperatorButtonStyle}"
+            Text="("
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="("/>
+        <Button 
+            Grid.Row="5"
+            Grid.Column="4"
+            ZIndex="1"
+            Margin="6,10,6,4"
+            Style="{StaticResource ScientificOperatorButtonStyle}"
+            Text=")"
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter=")"/>
+        <!--Row 7-->
+        <Button 
+            Grid.Row="5"
+            Grid.Column="0"
+            ZIndex="1"
+            Margin="6,10,6,4"
+            Style="{StaticResource ScientificOperatorButtonStyle}"
+            Text="SQART"
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="SQART"/>
+        <Button 
+            Grid.Row="5"
+            Grid.Column="1"
+            ZIndex="1"
+            Margin="6,10,6,4"
+            Style="{StaticResource ScientificOperatorButtonStyle}"
+            Text="ABS"
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="ABS"/>
+        <Button 
+            Grid.Row="5"
+            Grid.Column="2"
+            ZIndex="1"
+            Margin="6,10,6,4"
+            Style="{StaticResource ScientificOperatorButtonStyle}"
+            Text=","
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter=","/>
+        <Button 
+            Grid.Row="5"
+            Grid.Column="3"
+            ZIndex="1"
+            Margin="6,10,6,4"
+            Style="{StaticResource ScientificOperatorButtonStyle}"
+            Text="("
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter="("/>
+        <Button 
+            Grid.Row="5"
+            Grid.Column="4"
+            ZIndex="1"
+            Margin="6,10,6,4"
+            Style="{StaticResource ScientificOperatorButtonStyle}"
+            Text=")"
+            Command="{Binding ScientificOperatorCommand}"
+            CommandParameter=")"/>
+        <!--Row 8-->
         <Button 
             Grid.Row="5"
             Grid.Column="0"
